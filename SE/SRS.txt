@@ -1,0 +1,40 @@
+Introduction
+
+The software specifications for an application that takes selfies automatically when it notices a smile in the camera view. The YOLO (You Only Look Once) object identification algorithm will be used to detect smiles.
+
+1. Model Training:
+
+    Data Acquisition: Gather a dataset of labeled images containing a variety of faces with and without smiles.
+    Model Training and Optimization: Train the YOLO model on the dataset to accurately identify smiles.
+    Model Evaluation: Test the trained model on a separate validation dataset to assess its accuracy and identify potential biases or limitations.
+
+2. System Overview
+
+The components of the system will be as follows:
+    Camera: Record video in real time using the front-facing camera on the device.
+    Preprocessing Module:A preprocessing module before the Smile Detection module. This module may handle activities such as image scaling, normalisation, and pre-processing that are 
+        particular to the YOLO input needs.
+    Smile Detection Module: This module analyses the video feed using the YOLO algorithm to identify smiles.
+    Capture Module: After getting approval from the Smile Detection Module, this module starts to capture a selfie.
+
+3. Functional Requirements
+    Smile Detection: 
+         The YOLO algorithm will be used by the system to continuously and in real-time analyse the camer
+         stream.
+    
+    Selfie Capture:
+        The system will take a selfie (picture or video) as soon as it confirms that the confidence level for grin detection 
+        has been exceeded.
+        The taken selfies must be stored to the device's local storage.
+    
+    User Interface:
+        The user interface shall be intuitive and user-friendly.
+        The user shall have access to settings for configuring capture delay, image/video format, and storage location.
+
+4. Non-Functional Requirements
+    Performance:
+        The system shall achieve real-time smile detection with minimal processing overhead and impact on device performance.
+        The capture process shall be efficient and minimize latency between smile detection and image capture.
+    Accuracy:
+        The YOLO algorithm shall accurately identify smiles with a high success rate and minimal false positives/negatives.
+    
