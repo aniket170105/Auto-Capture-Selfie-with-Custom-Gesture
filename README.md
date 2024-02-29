@@ -49,4 +49,4 @@ The system shall interface with the mobile device's camera for real-time gesture
 6.1 Security:
 
 The system shall not store or transmit any sensitive user data captured during the selfie capture process
-Changing the readme file
+
