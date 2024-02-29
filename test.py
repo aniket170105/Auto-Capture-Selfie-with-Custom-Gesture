@@ -8,5 +8,5 @@ CLIENT = InferenceHTTPClient(
 )
 
 # infer on a local image
-result = CLIENT.infer("D:\\SoftwareEngi\\New_tests\\download.jpg", model_id="smile-detection-le9k5/2")
+result = CLIENT.infer("D:\\SoftwareEngi\\New_tests\\download.jpg", model_id=config('model_id'))
 print(result)
