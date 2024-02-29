@@ -1,9 +1,10 @@
 from inference_sdk import InferenceHTTPClient
+from decouple import config
 
 # initialize the client
 CLIENT = InferenceHTTPClient(
-    api_url="http://detect.roboflow.com",
-    api_key="ilgWC7zxDlrfvA5r8V7T"
+    api_url= config('api_url')
+    api_key= config('api_key')
 )
 
 # infer on a local image
