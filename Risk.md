@@ -1,7 +1,7 @@
 # Smile Classification Project
 
 ## Overview
-This project aims to classify smiles and no-smiles using a custom dataset and the YOLOv8 model. The trained model is then used in real-time to automatically capture selfies based on user-selected gestures. 
+This project will classify smiles and no-smiles using a custom dataset and the YOLOv8 model. The trained model is then used in real-time to capture selfies automatically based on user-selected gestures. 
 
 ## Project Structure
 - `dataset_creation/`: Contains scripts and resources for creating the custom dataset.
@@ -20,13 +20,11 @@ This project aims to classify smiles and no-smiles using a custom dataset and th
 - Implement additional features such as emotion recognition.
 - Enhance model performance through continual training and refinement.
 
-## Contributions
-Contributions are welcome! Feel free to submit issues or pull requests.
 
 ## License
 This project is licensed under [MIT License](LICENSE).
 
 ## Acknowledgments
-- [YOLOv5](https://github.com/ultralytics/yolov5): Inspiration for model training.
+- [YOLO](https://github.com/ultralytics/ultralytics): Inspiration for model training.
 - [OpenCV](https://opencv.org/): Used for real-time image processing.
 
