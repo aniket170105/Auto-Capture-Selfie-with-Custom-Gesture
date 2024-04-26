@@ -3,8 +3,8 @@ import numpy as np
 import cv2
 
 model = YOLO('D:\\SE\\Auto-Capture-Selfie-with-Custom-Gesture\\runs\\classify\\train2\\weights\\best.pt')
-# results = model('D:\\SE\\Auto-Capture-Selfie-with-Custom-Gesture\\Unlabelled\\IMG_20240222_203729.jpg')
-
+# results = model('D:\\SE\\Auto-Capture-Selfie-with-Custom-Gesture\\New_tests\\download (2).jpg')
+# print(results)
 
 cap = cv2.VideoCapture(0)
 

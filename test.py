@@ -3,7 +3,7 @@ from decouple import config
 
 # initialize the client
 CLIENT = InferenceHTTPClient(
-    api_url= config('api_url')
+    api_url= config('api_url'),
     api_key= config('api_key')
 )
 
