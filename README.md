@@ -1,52 +1,78 @@
-# Auto-Capture-Selfie-with-Custom-Gesture
- "Auto Capture Selfie with Custom Gesture" is a feature that enables users to take selfies using a mobile application without needing to manually press a button. Instead, users can define a custom gesture or pose, and when they perform that gesture in front of their device's camera, the app will automatically capture a selfie
+# Gesture-Based Selfie Capture App
 
+This repository contains the **Gesture-Based Selfie Capture App**, an innovative mobile application developed in Kotlin. The app leverages TensorFlow Lite (EfficientDet-D0) for gesture detection and provides a seamless way to capture selfies automatically using predefined gestures.
 
-Software Requirements Specification
+## Table of Contents
+- [About the Project](#about-the-project)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [How to Run the Project](#how-to-run-the-project)
+- [Demo](#demo)
 
-1. Introduction
+---
 
-1.1 Purpose:
+## About the Project
 
-The purpose of this document is to define the requirements for the development of the "Auto Capture Selfie with Custom Gesture" feature in the mobile application.
-1.2 Scope:
+The **Gesture-Based Selfie Capture App** is designed to enhance user experience by automating the selfie-taking process using gesture recognition. Users can take selfies effortlessly through predefined gestures such as:
+- Smiles
+- Heart hands
+- Victory signs
+- Thumbs-up gestures
 
-This feature allows users to capture selfies using custom gestures without manually pressing any buttons on their mobile devices.
-2. Functional Requirements
+The app ensures real-time feedback, intuitive UI, offline functionality, and efficient storage management.
 
-2.1 Gesture Recognition:
+---
 
-The system shall be able to recognize predefined custom gestures performed by the user in front of the device's camera.
-2.2 Selfie Capture:
+## Features
+- **Gesture Detection**: Powered by the EfficientDet-D0 model for accurate and efficient recognition of gestures.
+- **Selfie Capture**: Automatic selfie capture upon recognizing specific gestures.
+- **Real-Time Feedback**: Provides immediate feedback during gesture detection.
+- **Offline Mode**: Core functionalities work even without an internet connection.
+- **User-Friendly Interface**: Intuitive design for seamless interaction.
+- **Secure and Scalable**: Adheres to privacy guidelines and is designed for scalability.
 
-Upon recognizing the custom gesture, the system shall automatically trigger the device's camera to capture a selfie.
-3. Non-Functional Requirements
+---
 
-3.1 Performance:
+## Technologies Used
+- **Programming Language**: Kotlin (version 7 or higher)
+- **Machine Learning Framework**: TensorFlow Lite (EfficientDet-D0)
+- **Development Environment**: Android Studio
+- **Deployment**: Google Play Store (Android OS 7 or higher)
 
-The system shall have a response time of less than 1 second for recognizing gestures and capturing selfies.
-3.2 Accuracy:
+---
 
-The gesture recognition model shall have an accuracy rate of at least 95% for correctly identifying predefined gestures.
-3.3 Usability:
+## Getting Started
 
-The user interface shall be intuitive and user-friendly, providing clear instructions on how to perform the custom gestures for selfie capture.
-4. System Constraints
+### Prerequisites
+Ensure you have the following installed:
+- Android Studio (latest version)
+- Kotlin 1.9.23 or higher
+- A smartphone or emulator running Android OS version 7 or higher.
 
-4.1 Hardware:
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/gesture-selfie-capture.git
+2. Open the project in Android Studio.
+3. Sync the Gradle files.
 
-The feature requires a mobile device with a front-facing camera capable of capturing images.
-4.2 Software:
+---
 
-The feature requires integration with a machine learning model trained on the YOLOv5/YOLOv8 architecture for gesture recognition.
-5. External Interfaces
+## How to Run the Project
+1. Connect your Android device or start an emulator in Android Studio.
+2. Build and run the application:
+    - Select the "Run" button or use Shift + F10 in Android Studio.
+3. Grant the necessary permissions (camera, storage) when prompted.
+4. Interact with the app by performing gestures like a smile or thumbs-up to capture selfies.
 
-5.1 Camera Interface:
+---
 
-The system shall interface with the mobile device's camera for real-time gesture recognition and selfie capture.
-6. Other Requirements
+## Demo
+🎥 **Demo Video**: Watch the app in action!  
 
-6.1 Security:
+![Demo Video](AutoCapture.gif)
 
-The system shall not store or transmit any sensitive user data captured during the selfie capture process
+---
 
+Feel free to contribute to this project or report any issues! 😊
